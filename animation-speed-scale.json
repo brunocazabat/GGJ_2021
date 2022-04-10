@@ -1,0 +1,861 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.exemple.com",
+    "projectUuid": "dbc59f8c-c8c4-4e85-9e8b-5c7b16a82c12",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Animation speed scale",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 10,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      },
+      {
+        "name": "TiledSpriteObject"
+      },
+      {
+        "name": "PlatformBehavior"
+      },
+      {
+        "name": "TextObject"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "brickWall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "brickWall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Soldier0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Soldier0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bullet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bullet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bullet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gunshot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gunshot.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "switching-button-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MAP_PASSE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MAP_PASSE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MAP_PRESENT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MAP_PRESENT.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "kind": "",
+        "metadata": "",
+        "name": "HealthBar.png"
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MAP_PASSE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MAP_PASSE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MAP_PRESENT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MAP_PRESENT.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "kind": "",
+        "metadata": "",
+        "name": "HealthBar.png"
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Soldier0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Soldier0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/walk-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\walk-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/walk-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\walk-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/walk-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\walk-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/walk-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\walk-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/walk-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\walk-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/HealthBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\HealthBar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Bullet/Bullet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Bullet\\Bullet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Bullet/Bullet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Bullet\\Bullet3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Bullet/Bullet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Bullet\\Bullet4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/gunshot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\gunshot.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/crouch1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\crouch1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/crouch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\crouch2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/crouch3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\crouch3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/crouch4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\crouch4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/crouch5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\crouch5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Running-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Running-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Running-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Running-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Running-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Running-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Running-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Running-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Running-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Running-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Idle-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Idle-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Idle-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Idle-01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-2-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-3-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-4-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Crouching-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Crouching-5-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Player gunshot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Player gunshot.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Sources/Background_Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Sources\\Background_Menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Sources/button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Sources\\button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Faceoff.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Faceoff.mp3",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/MAP/MAP PASSE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture/MAP/MAP PASSE.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/MAP/MAP PRESENT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture/MAP/MAP PRESENT.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/MAP/MAP FUTUR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture/MAP/MAP FUTUR.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Sources/gameover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Sources\\gameover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Sources/gameovertxt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Sources\\gameovertxt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/gameover.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\gameover.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Player gunshot.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Player gunshot.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/gunshot.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\gunshot.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Faceoff.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Faceoff.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/gameover.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\gameover.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Death1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Death2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Player/Death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Player\\Death3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Font/DEATH.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Font\\DEATH.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Hurt1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Hurt1.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Death.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Death.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/HealthBarBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\HealthBarBackground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Hurt2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Hurt2.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Particules/ExplosionTexture-Smoke-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Particules\\ExplosionTexture-Smoke-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Enemy/EIdle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Enemy\\EIdle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Enemy/EDeath1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Enemy\\EDeath1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Enemy/EDeath2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Enemy\\EDeath2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Texture/Enemy/EDeath3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Texture\\Enemy\\EDeath3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/music_game.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\music_game.ogg",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Temporality",
+      "value": "1"
+    },
+    {
+      "name": "NumberOfBullet",
+      "value": "0"
+    },
+    {
+      "name": "NextShootTime",
+      "value": "5"
+    },
+    {
+      "name": "IsCrouch",
+      "value": "0"
+    },
+    {
+      "name": "CurrentLayer",
+      "value": "Present layer"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/new-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
